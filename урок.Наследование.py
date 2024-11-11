@@ -31,11 +31,12 @@ class Plant:
         self.edible = False
 
 
+
 class Flower(Plant):
     def __init__(self, name):
         super().__init__(name)
         self.edible = True
-        pass
+
 
 class Fruit(Plant):
     def __init__(self, name):
