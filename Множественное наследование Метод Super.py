@@ -23,6 +23,9 @@ class Animal:
         else:
             print("Be careful, attacking you 0_0")
 
+    def speak(self):
+        print(self.sound)
+
 class Bird(Animal):
     def __init__(self, speed):
         super().__init__(speed)
